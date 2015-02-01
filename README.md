@@ -11,10 +11,42 @@ Below is a small reference of what you will find in this code, and that I believ
   * Easely adaptable to higher bases.
   * Addition, subtraction, multiplication and division implemented.
 
-* BinaryTree. 
+* BinaryTree class. 
   * Depth First pre, post and in order traversals. 
   * Breadth first left-to-right and right-to-left traversals. 
   * Pretty print function.
   * for_each function (using any of the above traversals).
   * Function for finding path between two nodes.
-* 
+
+* Random Generator class.
+ * Class that encapsulates all of STL's unintuitive structures, and offers a simple interface for generating random numbers.
+ * Produces a single random value or a sequence of N random ones.
+ * Overriden for most numeric formats (double, char, short, long long), and also strings.
+ * Able to reset the seed of the RandomGenerator object.
+ * Able to set a min and max range for the random numbers.
+
+* Directed and Undirected Graph classes.
+ * Implemented using adjecency list.
+ * BFS and DFS (pre and post) functions.
+ * Find all paths between two nodes.
+ * Find smallest path between two nodes.
+ 
+* List class (doubly linked)
+ * Insert, find, erase, push and pop (back and front).
+ * Bidirectional iterator class (with begin(), end(), rbegin() and rend() functions), making the List useable with all STL functions.
+ * Swap nodes function,
+ * Invert list function.
+
+* Hash Table class.
+ * std::vector as main underlying structure, and std::list for extranal chaining (to avoid colisions).
+ * Self adjustable load factor.
+ * Bidirectional iterator classes implemented, making the container useable against most STL functions.
+ * std::hash is used for hashing the key values.
+
+* Stack, queue, and heap classes.
+ * All element access, insertion and deletion function implemented (push, pop, and front or back).
+
+* Sorting functions.
+ * Heap, buble, quick, merge, and radix.
+
+Some other stuff, such as bit manipulation, recursion, dynamic progrmaming and memory handling.
